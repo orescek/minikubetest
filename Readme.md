@@ -30,16 +30,16 @@ bash run.sh [start|stopping|delete]
 
 # Details of the scripts
 
-Scripts and included script with crucial function explanation
+Scripts and included script with crucial function explanation 
 
 ## run.sh
 
-main script for starting and stopping. It uses preflight check for installed commands
+Main script for starting, stopping and deleting minikube cluster. It uses preflight check for commands that are needed to execute this scripts
 
 ### function start()
 
 - executes functions/commands:
-    -  preflight_checker 
+    - preflight_checker 
     - create_certs
     - prepare_deployment 
     - prepare_ingress 

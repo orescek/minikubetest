@@ -17,7 +17,7 @@ Page is avaliable at: https://myservice.example.com/
 - needs minikube,openssl,docker and kubectl installed
 
 ## Usage
-bash run.sh [start|stopping|delete]
+bash run.sh [start|stop|delete]
 ### Options
 - `start`: Starts and if cluster is not configured it is do configuration - with certs preparation
 - `stop`:  Stops minikube cluster

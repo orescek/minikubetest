@@ -30,7 +30,7 @@ bash run.sh [start|stop|delete]
 
 # Details of the scripts
 
-Scripts and included script with crucial function explanation 
+Main scripts and included scripts with crucial function explanation 
 
 ## run.sh
 
